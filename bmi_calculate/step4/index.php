@@ -4,7 +4,7 @@
  $bmi = 0;
  $interpretation = "";
  
- if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
      $name = htmlspecialchars($_POST['name']);
      $weight = floatval($_POST['weight']);
      $height = floatval($_POST['height']);
